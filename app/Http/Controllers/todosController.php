@@ -13,7 +13,7 @@ class todosController extends Controller
         $todos = todos::all();
         return view('welcome', compact('todos'));
     }
-
+ 
   
     public function store(Request $request)
     {
